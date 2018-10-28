@@ -17,7 +17,7 @@ public class CompleteScenario implements Serializable {
 
 	@Override
 	public String toString() {
-		return "CompleteScenario  ---->[servers=" + servers + ", mobileDevices=" + mobileDevices + "]";
+		return "CompleteScenario  <<---->[servers=" + servers + ", mobileDevices=" + mobileDevices + "]";
 	}
 
 	public ArrayList<EdgeServer> getServers() {
